@@ -1,4 +1,5 @@
-// a simple algorithm that allows you to guess multiples of 4 //until you find all the multiples that add up to 1000 as the //final sum
+// a simple algorithm that allows you to guess multiples of 4
+//until you find all the multiples that add up to 1000 as the final sum
 
 #include <iostream>
 #include <cstring>
@@ -24,12 +25,12 @@ int main() {
       cout<<"try again you didn't guess any multiple";
     }
   }while(!(s==1000));
-     cout<<"You reached the result of 1000 and you guessed "        <<n;
+     cout<<"You reached the result of 1000 and you guessed "<<n;
     
     cout<<"would you like to rerun the program(y/n): ";
     cin>>again;
     if(again=='n') {
-      cout<<"happy you tried the program, follow me on Twitter       if you want";
+      cout<<"happy you tried the program, follow me on Twitter if you want";
     } else {
       //nothing
     }
