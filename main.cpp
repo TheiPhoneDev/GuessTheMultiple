@@ -30,7 +30,7 @@ int main() {
     cout<<"would you like to rerun the program(y/n): ";
     cin>>again;
     if(again=='n') {
-      cout<<"happy you tried the program, follow me on Twitter if you want";
+      cout<<"The End";
     } else {
       //nothing
     }
